@@ -2,6 +2,15 @@
     "webApp":{
         "name":"webApp",
         "description":"前端项目模板",
-        "repo":"github:Jameszws/mkt-app"
+        "repo":"github:Jameszws/mkt-app",
+        "type":"github",
+        "branch":"master"
+    },
+    "webHorse":{
+        "name":"webHorse",
+        "description":"基础项目架构",
+        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base.git",
+        "type":"gitlab",
+        "branch":"master"
     }
 }
