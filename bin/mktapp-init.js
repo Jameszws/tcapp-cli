@@ -83,6 +83,9 @@ var cli = {
 				case "gitlab":
 					this.downloadGitlab(answers,spinner);
 					break;
+				default:
+					console.log(symbols.error,chalk.red('\n 模板类型无效，请您重新编辑模板~ \n'));
+					break;
 			}
 		});
 	},
