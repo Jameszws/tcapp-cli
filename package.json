@@ -1,15 +1,15 @@
 {
-  "name": "mktapp-cli",
-  "version": "2.1.3",
+  "name": "tcapp-cli",
+  "version": "1.0.0",
   "description": "前端脚手架工具",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/mktapp-init.js webHorse test11111111",
-    "op": "node ./bin/mktapp.js"
+    "start": "node ./bin/tcapp-init.js webHorse test11111111",
+    "op": "node ./bin/tcapp.js"
   },
   "bin": {
-    "mktapp-init": "./bin/mktapp-init.js",
-    "mktapp": "./bin/mktapp.js"
+    "tcapp-init": "./bin/tcapp-init.js",
+    "tcapp": "./bin/tcapp.js"
   },
   "repository": {
     "type": "git",

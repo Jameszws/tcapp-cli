@@ -38,13 +38,12 @@ var cli = {
 	},
 
 	initProgram:function(){
-		program.usage('<template-name> [project-name]');
+		program.usage('<template-name> <project-name>');
 		program.on('--help', function () {
-			console.log('  Examples:')
 			console.log()
-			console.log(chalk.yellow('    # 使用npm模板创建'))
-			console.log('    $ mktapp init <template-name> <my-project>')
-			console.log('    $ mktapp init webApp <my-project>')
+			console.log(chalk.yellow('    # 使用模板，初始化项目'))
+			console.log('    $ tcapp init <template-name> <my-project>')
+			console.log('    $ tcapp init webApp test （说明：其中webApp是模板名称，test项目名称）')
 			console.log()
 		});
 		program.parse(process.argv);
