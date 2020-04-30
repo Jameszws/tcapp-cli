@@ -1,6 +1,6 @@
 {
   "name": "tcapp-cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "前端脚手架工具",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Jameszws/mktapp-cli"
+    "url": "https://github.com/Jameszws/tcapp-cli"
   },
   "author": "wenshu.zhang",
   "license": "ISC",
