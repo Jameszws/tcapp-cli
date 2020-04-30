@@ -23,7 +23,7 @@ program
 
 program
     .command('list')
-    .description('显示所有模板')
+    .description('显示所有模板信息')
     .action(require('../lib/temp-list'));
 
 program
