@@ -2,6 +2,7 @@
 
 const program = require('commander');
 const packageInfo = require('../package.json');
+const chalk = require('chalk');
 
 program
     .version(packageInfo.version, '-v, --version')     //  显示版本号

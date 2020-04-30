@@ -138,11 +138,6 @@ var cli = {
 	 */
 	setPackageJsonFile(answers){
 		let filePath = "";
-		switch(this.params.templateName){	//特殊处理
-			case "webHorse":
-				filePath = "/web-horse";
-				break;
-		}
 		const file = `${this.params.projectName}${filePath}/package.json`;
 		const meta = {
 			name:this.params.projectName || "app_horse_vue",
