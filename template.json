@@ -2,7 +2,7 @@
     "webApp":{
         "name":"webApp",
         "description":"前端项目模板",
-        "repo":"github:Jameszws/mkt-app",
+        "repo":"github:Jameszws/tcapp-app",
         "type":"github",
         "branch":"master"
     },
@@ -14,7 +14,7 @@
         "branch":"master"
     },
     "webTheme":{
-        "name":"webHorseTheme",
+        "name":"webTheme",
         "description":"基础项目架构+主题",
         "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base-theme.git",
         "type":"gitlab",
