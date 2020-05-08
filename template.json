@@ -12,5 +12,12 @@
         "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base.git",
         "type":"gitlab",
         "branch":"master"
+    },
+    "webTheme":{
+        "name":"webHorseTheme",
+        "description":"基础项目架构+主题",
+        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base-theme.git",
+        "type":"gitlab",
+        "branch":"master"
     }
 }
