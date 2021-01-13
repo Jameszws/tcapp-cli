@@ -4,7 +4,7 @@
   "description": "前端脚手架工具",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./bin/tcapp-init.js webHorse test11111111",
+    "start": "node ./bin/tcapp-init.js wanxiang test111",
     "op": "node ./bin/tcapp.js"
   },
   "bin": {

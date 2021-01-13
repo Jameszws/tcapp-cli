@@ -1,11 +1,4 @@
 {
-    "webApp":{
-        "name":"webApp",
-        "description":"前端项目模板",
-        "repo":"github:Jameszws/tcapp-app",
-        "type":"github",
-        "branch":"master"
-    },
     "webHorse":{
         "name":"webHorse",
         "description":"基础项目架构",
@@ -18,6 +11,20 @@
         "description":"基础项目架构+主题",
         "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base-theme.git",
         "type":"gitlab",
+        "branch":"master"
+    },
+    "wanxiang":{
+        "name":"wanxiang",
+        "description":"万象框架",
+        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-wanxiang.git",
+        "type":"gitlab",
+        "branch":"master"
+    },
+    "webApp":{
+        "name":"webApp",
+        "description":"前端项目模板",
+        "repo":"github:Jameszws/tcapp-app",
+        "type":"github",
         "branch":"master"
     }
 }

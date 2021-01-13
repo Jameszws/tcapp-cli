@@ -43,7 +43,7 @@ var cli = {
 			console.log()
 			console.log(chalk.yellow('    # 使用模板，初始化项目'))
 			console.log('    $ tcapp init <template-name> <my-project>')
-			console.log('    $ tcapp init webApp test （说明：其中webApp是模板名称，test项目名称）')
+			console.log('    $ tcapp init webTheme test （说明：其中webTheme是模板名称，test项目名称）')
 			console.log()
 		});
 		program.parse(process.argv);
