@@ -1,8 +1,8 @@
 {
-    "webHorse":{
-        "name":"webHorse",
-        "description":"基础项目架构",
-        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base.git",
+    "ssr":{
+        "nuxt":"nuxt",
+        "description":"基础项目架构+主题",
+        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-nuxt.git",
         "type":"gitlab",
         "branch":"master"
     },
@@ -26,5 +26,12 @@
         "repo":"github:Jameszws/tcapp-app",
         "type":"github",
         "branch":"master"
-    }
+    },
+    "webHorse":{
+        "name":"webHorse",
+        "description":"基础项目架构",
+        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base.git",
+        "type":"gitlab",
+        "branch":"master"
+    },
 }
