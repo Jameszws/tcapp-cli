@@ -1,7 +1,7 @@
 {
-    "ssr":{
-        "nuxt":"nuxt",
-        "description":"基础项目架构+主题",
+    "nuxt":{
+        "name":"nuxt",
+        "description":"nuxt框架",
         "repo":"git@git.17usoft.com:tcyl-web-common/t-web-nuxt.git",
         "type":"gitlab",
         "branch":"master"
@@ -33,5 +33,5 @@
         "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base.git",
         "type":"gitlab",
         "branch":"master"
-    },
+    }
 }
