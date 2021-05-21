@@ -1,4 +1,5 @@
 {
+
     "nuxt":{
         "name":"nuxt",
         "description":"nuxt框架",
@@ -8,8 +9,22 @@
     },
     "webTheme":{
         "name":"webTheme",
-        "description":"基础项目架构+主题",
+        "description":"1）基础项目架构  2）多主题选择",
         "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base-theme.git",
+        "type":"gitlab",
+        "branch":"master"
+    },
+    "webVersion":{
+        "name":"webVersion",
+        "description":"1）项目框架  2）版本控制",
+        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-base-theme.git",
+        "type":"gitlab",
+        "branch":"feature_version_manage"
+    },
+    "miniProgram":{
+        "name":"miniProgram",
+        "description":"小程序基础框架",
+        "repo":"git@git.17usoft.com:tcyl-web-common/t-web-miniprogram.git",
         "type":"gitlab",
         "branch":"master"
     },
